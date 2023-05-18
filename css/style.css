@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Dancing+Script&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Alegreya', serif;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.overly {
+    background: rgba(0, 0, 0, .5);
+    height: 100vh;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.header {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.navbar {
+    padding-top: 28px;
+    margin-left: 80px;
+}
+
+.logoNav img {
+    width: 36%;
+    padding-top: 10px;
+}
+
+.logoNav {
+    width: 30%;
+    float: left;
+}
+
+.bodyNav {
+    width: 70%;
+    float: left;
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.bodyNav .list-item {
+    display: inline-block;
+}
+
+.list-item a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration-line: none;
+}
+
+.headerBody {
+    padding-top: 120px;
+    color: #fff;
+    text-align: center;
+}
+
+.headerBody img {
+    width: 25%;
+}
+
+.headerBody h1 {
+    font-family: 'Alegreya', serif;
+    font-size: 75px;
+    font-weight: 400;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+.headerBody p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-top: 2%;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    margin-left: 10px;
+}
+
+.btr {
+    color: #fff;
+    background-color: #c1ab84;
+    margin-right: 10px;
+}
+
+.btr:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* about section */
+.about-content {
+    float: left;
+    width: 60%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.about-img {
+    float: left;
+    width: 40%;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: rgb(37, 48, 72);
+
+}
+
+.about-content h3 {
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(193, 171, 132);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.about-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    width: 74%;
+    margin: auto;
+    font-family: 'Alegreya', serif;
+}
+
+.about-content ul li {
+    text-align: left;
+    margin: auto;
+    width: 70%;
+}
+
+.about-content ul li i {
+    color: #fff;
+    background-color: rgb(193, 171, 132);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+    margin-top: 20px;
+    margin-left: -10PX;
+}
+
+.about-content ul li span {
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Alegreya', serif;
+}
+
+/* reviewers */
+.reviewers {
+    background-color: #f8f8f8;
+    padding: 70px;
+
+}
+
+.rev-desc {
+    float: left;
+    width: 60%;
+}
+
+.rev-img {
+    float: left;
+    width: 40%;
+}
+
+.rev-img img {
+    width: 100%;
+}
+
+.rev-desc h2 {
+    color: rgb(37, 48, 72);
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Alegreya', serif;
+}
+
+.rev-desc h3 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(193, 171, 132);
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.rev-desc p {
+    font-size: 18px;
+    width: 79%;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+}
+
+.rev-desc i {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    color: rgb(193, 171, 132);
+    font-weight: 400;
+}
+
+.rev-desc span {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+
+/* cover */
+.cover {
+    background-image: url(../img/cover.jpg);
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* menu */
+.menu {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.menu h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.menu h3 {
+    color: rgb(193, 171, 132);
+    font-size: 28px;
+    font-family: "Dancing Script";
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.menu-cont .item {
+    float: left;
+    width: 33.33%;
+}
+
+.menu-cont img {
+    width: 80%;
+}
+
+.menu-cont .item h4 {
+    font-size: 21px;
+    margin-top: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.menu-cont .item p {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.menu-cont a {
+    background-color: #c1ab84;
+    color: #fff;
+    border-radius: 10px;
+    border: 0;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 11px 20px;
+    font-family: 'Alegreya', serif;
+}
+
+/* location */
+.location {
+    background-color: #f8f8f8;
+    padding: 70px;
+
+}
+
+.location-desc {
+    float: left;
+    width: 60%;
+}
+
+.location-img {
+    float: left;
+    width: 40%;
+}
+
+.location-img img {
+    width: 150%;
+}
+
+.location-desc h2 {
+    color: rgb(37, 48, 72);
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Alegreya', serif;
+}
+
+.location-desc p {
+    font-size: 18px;
+    width: 79%;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+}
+
+.location-desc i {
+    color: #fff;
+    background-color: #c1ab84;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: left;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-top: 20px;
+
+}
+
+.location-desc span {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+/* footer */
+.footer {
+    background-color: #403d38;
+    color: #fff;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.footer-cont .item {
+    float: left;
+    width: 25%;
+    color: #969696;
+}
+
+.footer-cont .item h2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Alegreya', serif;
+}
+
+.footer-cont .item p {
+    width: 84%;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-cont .item li {
+    margin-bottom: 18px;
+    font-family: 'Alegreya', serif;
+}
+
+.footer-cont .item li i {
+    margin-right: 10px;
+}
+.footer-cont .item li a:hover{
+    color: #fff;
+    transition: all 1s;
+}
+
+.footer-cont .item a {
+    color: #969696;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.footer-cont .item span {
+    font-family: 'Alegreya', serif;
+
+}
+
+.footer-cont .item a:before {
+    content: '\f105';
+    font-family: FontAwesome;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+/* footer2 */
+.footer2 {
+    background-color: #353330;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer2 p {
+    color: #969696;
+    font-size: 13px;
+    width: 17%;
+    margin: auto;
+    font-family: 'Alegreya', serif;
+    padding-bottom: 10px;
+}
+
+.footer2 .container .icons i {
+    border-radius: 40%;
+    padding: 20px;
+    background-color: #484540;
+    color: #969696;
+    font-size: 17px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer2 .container .icons i:hover{
+    color: #fff;
+    background-color: #3b5998;
+    transition: all 1s;
+}
+@media (max-width: 575.98px) {
+    
+}
